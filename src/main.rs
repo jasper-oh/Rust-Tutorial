@@ -54,7 +54,7 @@ fn diff_with_mut_let() {
     let spaces = "   ";
     let spaces = spaces.len();
 
-    println!("{}", spaces)
+    println!("{}", spaces) 
 
     // let mut spaces = "   ";
     // spaces = spaces.len();
