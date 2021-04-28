@@ -53,6 +53,7 @@ fn mutable_value_func() {
     const MAX_POINT: u32 = 100_000;
     println!("const practice {}", MAX_POINT);
 }
+
 fn diff_with_mut_let() {
     let spaces = "   ";
     let spaces = spaces.len();
@@ -68,7 +69,9 @@ fn processingGuess() {
     println!("Guess the number !");
     println!("Please input your guess");
 
-    // Storing Values with Variables
+    // Storing Values with Variablse with mutable variable that is currently bound to,
+    // which is the result of calling String::new, a function that returns a new instance
+    // of a String.
     let mut guess = String::new();
 
     io::stdin()
@@ -76,4 +79,9 @@ fn processingGuess() {
         .expect("Failed to readline");
 
     println!("Your Number : {}", guess);
+
+    let foo = 5; //immutable
+    let mut bar = 5; //mutable
+
+    // Mutable && Immutable variation !! Notes!!
 }
