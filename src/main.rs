@@ -10,7 +10,7 @@ fn main() {
     // mutable_value_func()
     // diff_with_mut_let();
 
-    processingGuess();
+    processin_guess();
 }
 
 fn drawing_function() {
@@ -65,7 +65,7 @@ fn diff_with_mut_let() {
     // Error =>
 }
 
-fn processingGuess() {
+fn processin_guess() {
     println!("Guess the number !");
     println!("Please input your guess");
 
