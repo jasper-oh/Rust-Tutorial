@@ -1,3 +1,7 @@
+/**
+ * To run this code, use $cargo build -> $ cargo run
+ */
+
 use ferris_says::say;
 use std::io;
 use std::io::{stdout, BufWriter};
